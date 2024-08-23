@@ -11,6 +11,6 @@ public sealed class Year2015_Day03_Part1 : BaseTestData
     {
         (">", "2"),
         ("^>v<", "4"),
-        ("^v^v^v^v^v", "2")
+        ("^v^v^v^v^v", "2"),
     };
 }

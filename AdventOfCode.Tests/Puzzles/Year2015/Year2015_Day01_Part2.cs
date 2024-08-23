@@ -10,6 +10,6 @@ public sealed class Year2015_Day01_Part2 : BaseTestData
     public override List<(string, string)> TestCases => new()
     {
         (")", "1"),
-        ("()())", "5")
+        ("()())", "5"),
     };
 }
