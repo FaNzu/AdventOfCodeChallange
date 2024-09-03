@@ -10,6 +10,9 @@
     <None Update="Puzzles\Year2015\Day01\Input\Jose.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Puzzles\Year2015\Day01\Input\RTK.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Puzzles\Year2015\Day02\Input\Jose.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
