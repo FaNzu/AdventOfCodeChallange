@@ -1,8 +1,7 @@
 {
   "profiles": {
     "AdventOfCode.Cli": {
-      "commandName": "Project",
-      "commandLineArgs": "-y 2015 -d 1 -p 1"
+      "commandName": "Project"
     }
   }
 }
