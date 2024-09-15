@@ -32,17 +32,11 @@ public class Solution : BaseSolution
 
     public int CalculateSmallSurface(int l, int w, int h)
     {
-        int surface1 = l * w;
-        int surface2 = w * h;
-        int surface3 = h * l;
-
-        return Math.Min(surface1, Math.Min(surface2, surface3));
+        return Math.Min( l * w, Math.Min(w * h,  h * l));
     }
 
     public int CalculateTotalWrappingPaper(int l, int w, int h)
     {
-        int surfaceArea = CalculateSurface(l, w, h);
-        int smallestSide = CalculateSmallSurface(l, w, h);
-        return surfaceArea + smallestSide;
+        return  CalculateSurface(l, w, h) + CalculateSmallSurface(l, w, h);
     }
 }
