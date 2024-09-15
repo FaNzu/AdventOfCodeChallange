@@ -3,7 +3,7 @@ using AdventOfCode.Solutions.Library.Metadata;
 
 namespace AdventOfCode.Solutions.Puzzles.Year2015.Day02.Part1.Alice;
 
-public class Solution : BaseSolution
+public class WithSplitAndSeparateCalcMethods : BaseSolution
 {
     public override SolutionMetadata Metadata => new(Year.Year2015, Day.Day02, Part.Part1, Author.Alice);
 
