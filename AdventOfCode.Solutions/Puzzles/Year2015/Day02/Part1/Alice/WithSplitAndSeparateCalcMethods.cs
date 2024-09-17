@@ -10,7 +10,7 @@ public class WithSplitAndSeparateCalcMethods : BaseSolution
     public override Task<string> Solve(string input)
     {
         int totalWrappingPaper = 0;
-        string[] lines = input.Split(new[] { '\r', '\n' });
+        string[] lines = input.Split(new[] { '\r', '\n' },StringSplitOptions.RemoveEmptyEntries);
         foreach (string line in lines)
         {
             string[] parts = line.Split('x');
