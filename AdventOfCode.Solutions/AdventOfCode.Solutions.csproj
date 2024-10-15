@@ -16,7 +16,13 @@
     <None Update="Puzzles\Year2015\Day01\Input\RTK.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Puzzles\Year2015\Day02\Input\Ask.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Puzzles\Year2015\Day02\Input\Jose.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Puzzles\Year2015\Day03\Input\Ask.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Puzzles\Year2015\Day03\Input\Jose.dat">
@@ -25,10 +31,15 @@
     <None Update="Puzzles\Year2015\Day04\Input\Jose.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Puzzles\Year2015\Day04\Input\Ask.dat">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Puzzles\Year2015\Day05\Input\Ask.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Puzzles\Year2015\Day03\Input\" />
     <Folder Include="Puzzles\Year2015\Day04\Input\" />
   </ItemGroup>
 
