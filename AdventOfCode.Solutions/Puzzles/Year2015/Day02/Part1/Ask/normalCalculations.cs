@@ -1,4 +1,3 @@
-using System.Globalization;
 using AdventOfCode.Solutions.Library;
 using AdventOfCode.Solutions.Library.Metadata;
 
