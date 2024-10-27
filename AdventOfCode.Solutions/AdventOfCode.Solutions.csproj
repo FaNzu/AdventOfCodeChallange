@@ -34,6 +34,12 @@
         <None Update="Puzzles\Year2015\Day04\Input\Alice.dat">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="Puzzles\Year2015\Day05\Input\Alice.dat">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="Puzzles\Year2015\Day06\Input\Alice.dat">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
   <ItemGroup>
@@ -62,6 +68,7 @@
         <Folder Include="Puzzles\Year2015\Day02\Input\"/>
         <Folder Include="Puzzles\Year2015\Day03\Input\"/>
         <Folder Include="Puzzles\Year2015\Day04\Input\"/>
+        <Folder Include="Puzzles\Year2015\Day06\Input\" />
     </ItemGroup>
 
 </Project>
