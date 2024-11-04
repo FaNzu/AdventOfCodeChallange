@@ -17,7 +17,8 @@ public readonly record struct InputFile
         Year = year;
         Day = day;
         Author = author;
-        Path = $"./Puzzles/{year}/{day}/Input/{author}.dat";
+        //Path = $"./Puzzles/{year}/{day}/Input/{author}.dat";
+        Path = System.IO.Path.Combine("Puzzles", year.ToString(), day.ToString(), "Input", author + ".dat");
     }
 
     public bool Exists() => File.Exists(Path);

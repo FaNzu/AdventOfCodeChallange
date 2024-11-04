@@ -7,68 +7,35 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Update="Puzzles\Year2015\Day01\Input\Jose.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day01\Input\RTK.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day01\Input\Alice.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day02\Input\Jose.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day02\Input\Alice.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day03\Input\Jose.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day03\Input\Alice.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day04\Input\Jose.dat">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="Puzzles\Year2015\Day04\Input\Alice.dat">
+        <None Update="Puzzles\**\*.dat">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
 
-  <ItemGroup>
-    <None Update="Puzzles\Year2015\Day01\Input\Alice.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day01\Input\Jose.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day01\Input\RTK.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day02\Input\Ask.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day02\Input\Jose.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day03\Input\Ask.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day03\Input\Jose.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day04\Input\Jose.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day04\Input\Ask.dat">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Puzzles\Year2015\Day05\Input\Ask.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Puzzles\Year2015\Day06\Input\" />
+      <Folder Include="Puzzles\Year2015\Day07\Input\" />
+      <Folder Include="Puzzles\Year2015\Day08\Input\" />
+      <Folder Include="Puzzles\Year2015\Day09\Input\" />
+      <Folder Include="Puzzles\Year2015\Day10\Input\" />
+      <Folder Include="Puzzles\Year2015\Day12\Input\" />
+      <Folder Include="Puzzles\Year2015\Day13\Input\" />
+      <Folder Include="Puzzles\Year2015\Day14\Input\" />
+      <Folder Include="Puzzles\Year2015\Day15\Input\" />
+      <Folder Include="Puzzles\Year2015\Day16\Input\" />
+      <Folder Include="Puzzles\Year2015\Day17\Input\" />
+      <Folder Include="Puzzles\Year2015\Day18\Input\" />
+      <Folder Include="Puzzles\Year2015\Day19\Input\" />
+      <Folder Include="Puzzles\Year2015\Day25\Input\" />
+      <Folder Include="Puzzles\Year2015\Day24\Input\" />
+      <Folder Include="Puzzles\Year2015\Day22\Input\" />
+      <Folder Include="Puzzles\Year2015\Day21\Input\" />
+      <Folder Include="Puzzles\Year2015\Day23\Input\" />
+      <Folder Include="Puzzles\Year2016\Day02\Part2\Anna\" />
+    </ItemGroup>
 
-
+    <ItemGroup>
+      <PackageReference Include="QuikGraph" Version="2.5.0" />
+    </ItemGroup>
 
 </Project>
