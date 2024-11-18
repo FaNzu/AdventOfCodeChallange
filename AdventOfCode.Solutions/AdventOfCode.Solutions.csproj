@@ -67,6 +67,9 @@
     <None Update="Puzzles\Year2015\Day05\Input\Ask.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Puzzles\Year2015\Day05\Input\Jose.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 
