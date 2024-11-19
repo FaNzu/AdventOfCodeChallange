@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
@@ -63,6 +63,9 @@
     </None>
     <None Update="Puzzles\Year2015\Day04\Input\Ask.dat">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Puzzles\Year2015\Day06\Input\Ask.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Puzzles\Year2015\Day05\Input\Ask.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
