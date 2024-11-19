@@ -5,5 +5,6 @@ public enum Author
     Jose,
     Alice,
     RTK,
-    Ask
+    Ask,
+    Anna,
 }
