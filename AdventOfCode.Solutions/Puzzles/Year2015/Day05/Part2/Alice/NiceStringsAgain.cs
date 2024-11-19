@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Solutions.Library;
 using AdventOfCode.Solutions.Library.Metadata;
 
-namespace AdventOfCode.Solutions.Puzzles.Year2015.Day05.Part2;
+namespace AdventOfCode.Solutions.Puzzles.Year2015.Day05.Part2.Alice;
 
 public sealed class NiceStringsAgain : BaseSolution
 {
