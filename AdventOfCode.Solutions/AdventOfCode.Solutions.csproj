@@ -13,28 +13,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Puzzles\Year2015\Day06\Input\" />
-      <Folder Include="Puzzles\Year2015\Day07\Input\" />
-      <Folder Include="Puzzles\Year2015\Day08\Input\" />
-      <Folder Include="Puzzles\Year2015\Day09\Input\" />
-      <Folder Include="Puzzles\Year2015\Day10\Input\" />
-      <Folder Include="Puzzles\Year2015\Day12\Input\" />
-      <Folder Include="Puzzles\Year2015\Day13\Input\" />
-      <Folder Include="Puzzles\Year2015\Day14\Input\" />
-      <Folder Include="Puzzles\Year2015\Day15\Input\" />
-      <Folder Include="Puzzles\Year2015\Day16\Input\" />
-      <Folder Include="Puzzles\Year2015\Day17\Input\" />
-      <Folder Include="Puzzles\Year2015\Day18\Input\" />
-      <Folder Include="Puzzles\Year2015\Day19\Input\" />
-      <Folder Include="Puzzles\Year2015\Day25\Input\" />
-      <Folder Include="Puzzles\Year2015\Day24\Input\" />
-      <Folder Include="Puzzles\Year2015\Day22\Input\" />
-      <Folder Include="Puzzles\Year2015\Day21\Input\" />
-      <Folder Include="Puzzles\Year2015\Day23\Input\" />
-      <Folder Include="Puzzles\Year2016\Day02\Part2\Anna\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="QuikGraph" Version="2.5.0" />
     </ItemGroup>
 
