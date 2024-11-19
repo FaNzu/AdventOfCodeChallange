@@ -1,12 +1,11 @@
 using AdventOfCode.Solutions.Library.Metadata;
 using AdventOfCode.Solutions.Library;
 
-namespace AdventOfCode.Solutions.Puzzles.Year2015.Day06.Part2.Ask
+namespace AdventOfCode.Solutions.Puzzles.Year2015.Day06.Part1.Ask
 {
-    public sealed class NormalCalculations : BaseSolution
+    public sealed class ArrayCalculations : BaseSolution
     {
-        public override SolutionMetadata Metadata => new(Year.Year2015, Day.Day06, Part.Part2, Author.Ask);
-
+        public override SolutionMetadata Metadata => new(Year.Year2015, Day.Day06, Part.Part1, Author.Ask);
         public override Task<string> Solve(string input)
         {
             var gridSize = 1000;
@@ -23,13 +22,13 @@ namespace AdventOfCode.Solutions.Puzzles.Year2015.Day06.Part2.Ask
                         switch (command)
                         {
                             case 0: //toogle
-                                brightnessGrid[x, y] += 2;
+                                brightnessGrid[x, y] = 1 - brightnessGrid[x, y];
                                 break;
                             case 1: //on
-                                brightnessGrid[x, y] += 1;
+                                brightnessGrid[x, y] = 1;
                                 break;
                             case 2: //off
-                                brightnessGrid[x, y] = Math.Max(0, brightnessGrid[x, y] - 1);
+                                brightnessGrid[x, y] = 0;
                                 break;
                         }
                     }
