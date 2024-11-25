@@ -6,5 +6,5 @@ public enum Author
     Alice,
     RTK,
     Ask,
-    Anna,
+    Anna
 }
