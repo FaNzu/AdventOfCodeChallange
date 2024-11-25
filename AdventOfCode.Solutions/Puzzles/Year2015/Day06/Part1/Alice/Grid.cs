@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Solutions.Library;
 using AdventOfCode.Solutions.Library.Metadata;
 
-namespace AdventOfCode.Solutions.Puzzles.Year2015.Day06.Part1;
+namespace AdventOfCode.Solutions.Puzzles.Year2015.Day06.Part1.Alice;
 
 public sealed class Grid : BaseSolution
 {
@@ -50,7 +50,7 @@ public sealed class Grid : BaseSolution
         int startY = int.Parse(startCoords[1]);
         int endX = int.Parse(endCoords[0]);
         int endY = int.Parse(endCoords[1]);
-        
+
         for (int x = startX; x <= endX; x++)
         {
             for (int y = startY; y <= endY; y++)
