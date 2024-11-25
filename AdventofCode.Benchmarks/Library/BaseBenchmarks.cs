@@ -16,6 +16,7 @@ public abstract class BaseBenchmarks
         public BenchmarkConfiguration()
         {
             AddDiagnoser(MemoryDiagnoser.Default);
+            AddDiagnoser(EventPipeProfiler.Default);
             HideColumns("Method", "solution");
             AddColumn(new BaseBenchmarkColumn("Year", ColumnCategory.Job, be => be.Metadata.Year.ToString(), 0));
             AddColumn(new BaseBenchmarkColumn("Day", ColumnCategory.Job, be => be.Metadata.Day.ToString(), 1));
